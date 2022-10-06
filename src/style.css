@@ -1,0 +1,66 @@
+.document {
+  width: 600px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 20px;
+  margin: 200px;
+}
+.city {
+  font-size: 45px;
+  color: #7b8a75;
+  font-family: apple;
+}
+hr {
+  width: 350px;
+  margin: 0px 0px 7px 15px;
+  padding: 0px;
+  border-top: 2px solid #5d6958;
+  opacity: 90%;
+}
+form {
+  text-align: left;
+  margin: 15px 20px 0px 20px;
+}
+.date {
+  font-size: 13px;
+  margin-left: 43px;
+  font-weight: bolder;
+  color: darkgray;
+}
+.temperature {
+  font-size: 80px;
+  color: #5d6958;
+  font-family: apple;
+}
+.today {
+  background-color: rgb(243, 241, 241);
+  margin-left: 20px;
+  padding: 20px;
+  margin-bottom: 34px;
+  color: #5d6958;
+  font-family: apple;
+  border-radius: 10px;
+}
+.description {
+  font-size: 13px;
+  font-weight: bolder;
+}
+.humidity {
+  font-size: 20px;
+  color: #0d4066;
+  font-family: apple;
+}
+.humidity-display {
+  color: #3e473a;
+  font-family: apple;
+  background-color: rgb(243, 241, 241);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.wind-speed-display {
+  color: #3e473a;
+  font-family: apple;
+  background-color: rgb(243, 241, 241);
+  border-radius: 10px;
+}
