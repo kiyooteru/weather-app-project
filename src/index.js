@@ -20,7 +20,9 @@ function formatDate(date) {
   let day = days[dayIndex];
   return `${day}, ${hours}:${minutes}`;
 }
-
+let dateElement = document.querySelector("#current-date");
+let currentTime = new Date();
+dateElement.innerHTML = formatDate(currentTime);
 function showTemperature(response) {
   document.querySelector("#city").innerHTML = `📍 ${response.data.name}`;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -58,10 +60,6 @@ function currentLocationWeather(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
-
-let dateElement = document.querySelector("#current-date");
-let currentTime = new Date();
-dateElement.innerHTML = formatDate(currentTime);
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", searchForCity);
 
